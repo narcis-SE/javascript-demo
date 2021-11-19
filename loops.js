@@ -27,6 +27,8 @@ for(let i = 0; i < 5; i++){
     console.log(i);
 }
 
+console.log(" ")
+
 //How many licks does it take to get to the center
 let diameter = 100;
 let lickPower = 3;
@@ -51,3 +53,26 @@ while(word !== "fish"){
 }
 
 */ 
+
+console.log(" ")
+
+//Loop through array.
+
+//index=       0         1           2            3
+let foods = ["donuts", "apple", "candy canes", "lettuce"];
+
+//for loop
+for(let i=0; i< foods.length; i++){
+    console.log(foods[i]);
+}
+
+console.log(" ")
+//for .... of loop (GREAT for arrays and alike)
+//Syntax
+//(const newVariable of array)
+//newVariable contains one item from the array at a time
+//inside the loop, use the newVariable
+for( const food of foods){
+    console.log(food)
+}
+
